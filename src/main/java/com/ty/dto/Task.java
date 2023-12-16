@@ -34,6 +34,12 @@ public class Task {
 		this.taskId = taskId;
 		this.taskDescription = taskDescription;
 	}
+
+	public Task() {
+		super();
+	}
+	
+	
 	
 	
 	
