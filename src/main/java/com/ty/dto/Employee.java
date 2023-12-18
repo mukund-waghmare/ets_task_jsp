@@ -3,12 +3,13 @@ package com.ty.dto;
 import java.util.ArrayList;
 import java.util.List;
 
-
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
-import org.hibernate.annotations.Entity;
+
 
 @Entity
 public class Employee {
@@ -27,6 +28,7 @@ public class Employee {
 	
 	private double employeeSalary;
 	
+	@OneToMany(mappedBy = "employee")
 	private List<Task> employeeTaskList= new ArrayList<Task>();
 
 	public int getEmployeeId() {
@@ -95,6 +97,18 @@ public class Employee {
 		this.employeeRoll = employeeRoll;
 		this.employeeSalary = employeeSalary;
 	}
+	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + ", employeeName=" + employeeName + ", employeeEmail="
+				+ employeeEmail + ", employeePassword=" + employeePassword + ", employeeRoll=" + employeeRoll
+				+ ", employeeSalary=" + employeeSalary + ", employeeTaskList=" + employeeTaskList + "]";
+	}
+	
 	
 	
 	

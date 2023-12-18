@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: skyblue; */
+}
+
+
+.nav-div-1{
+    width: 100%;
+    height: 70px;
+    background-color:  whitesmoke;
+    display: flex;
+}
+li{
+	size: 100%;
+	font-size: x-large;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightcoral;
+}
+
+.nav-list{
+    width: 90%;
+    height: 100%;
+    border: 1px solid lightcoral;
+    /* border: 2px solid black; */
+
+}
+.nav-lits-container{
+    display: flex;
+    list-style-type: none;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+}
+.nav-lits-container li:hover{
+  text-shadow: 0px 0px 10px wheat;
+  color: brown;
+
+}
+
+.logo h1{
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+    margin-top: 2px;
+    text-shadow: 0px 5px 10px rebeccapurple;
+    transform: scale(70%);
+    font-size: x-large;
+   
+}
+
+.form{
+    width: 30%;
+    height: 170px;
+    border: 1px solid whitesmoke;
+    margin-left:    400px;
+    margin-top: 55px;
+    box-shadow: 0px 0px 15px rebeccapurple;
+}
+
+.form{
+    padding: 145px;
+}
+input{
+    margin-bottom: 5px;
+}
+
+.login-button{
+    margin-left: 45px;
+    
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:black;
+    border: blue;
+    background: white;
+}
+
+.login-button:hover{
+    border: 2px solid purple;
+    background-color: white;
+}
+
+input {
+	width: 100%;
+	padding: 7px;
+}
+
+label {
+	font-size: x-large;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+	margin-bottom: 5px;
+}
+/* 
+----------------------------------------------------------------------------------- */
+
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
